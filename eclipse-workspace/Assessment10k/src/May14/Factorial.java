@@ -9,7 +9,7 @@ public class Factorial {
 		System.out.println("Enter the number");
 		int n=sc.nextInt();
 		int count=1;
-		for(int i=n;i<=n;i--) {
+		for(int i=n;i>=1;i--) {
 			count*=i;
 			
 		}
